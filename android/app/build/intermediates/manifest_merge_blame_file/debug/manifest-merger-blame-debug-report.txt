@@ -1,0 +1,327 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.audiorecoder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:5:5-71
+13-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:7:5-79
+15-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.75.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\ce1147b3e4e04fe87f556bced63a10fa\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.75.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\ce1147b3e4e04fe87f556bced63a10fa\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:react-native-firebase_auth] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+17-->[:react-native-firebase_auth] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to access Google Play Licensing -->
+18-->[:react-native-firebase_auth] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+18-->[:react-native-firebase_auth] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required to to download files without a notification -->
+19-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-73
+19-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-70
+20    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+20-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-88
+20-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:22-85
+21
+22    <application
+22-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:9:5-27:19
+23        android:name="com.audiorecoder.MainApplication"
+23-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:10:7-38
+24        android:allowBackup="false"
+24-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:14:7-34
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\47641c1038212c127f26e98ebaa64661\core-1.3.1\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:12:7-41
+28        android:label="@string/app_name"
+28-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:11:7-39
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:13:7-52
+30        android:theme="@style/AppTheme"
+30-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:15:7-38
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\debug\AndroidManifest.xml:8:9-44
+32        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+32-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\debug\AndroidManifest.xml:11:9-86
+32-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\debug\AndroidManifest.xml:11:19-83
+33        <activity
+33-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:16:7-26:18
+34            android:name="com.audiorecoder.MainActivity"
+34-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:17:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:19:9-86
+36            android:label="@string/app_name"
+36-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:18:9-41
+37            android:launchMode="singleTask"
+37-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:20:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:21:9-51
+39            <intent-filter>
+39-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:22:9-25:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:23:13-65
+40-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:23:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:24:13-73
+42-->C:\Users\noppa\Documents\React\CSM_expo\android\app\src\main\AndroidManifest.xml:24:23-70
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
+47            android:name="app_data_collection_default_enabled"
+47-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+48            android:value="true" />
+48-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
+49
+50        <service
+50-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-89
+52            android:directBootAware="true"
+52-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+53            android:exported="false" >
+53-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+54            <meta-data
+54-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:85
+55                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+55-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-120
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+58                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+58-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\bbc9d1d1ee5d32a3945304e041cb8d40\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+61                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+61-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\bbc9d1d1ee5d32a3945304e041cb8d40\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\bbc9d1d1ee5d32a3945304e041cb8d40\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\f27fe8cfca89657d66d5b1bfc13441ee\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+64                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+64-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\f27fe8cfca89657d66d5b1bfc13441ee\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\f27fe8cfca89657d66d5b1bfc13441ee\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+66        </service>
+67
+68        <provider
+68-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:38
+69            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+69-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-88
+70            android:authorities="com.audiorecoder.reactnativefirebaseappinitprovider"
+70-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-86
+71            android:exported="false"
+71-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+72            android:initOrder="99" />
+72-->[:react-native-firebase_app] C:\Users\noppa\Documents\React\CSM_expo\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-35
+73        <provider
+73-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-50:20
+74            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+74-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-70
+75            android:authorities="com.audiorecoder.provider"
+75-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-60
+76            android:exported="false"
+76-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-37
+77            android:grantUriPermissions="true" >
+77-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-47
+78            <meta-data
+78-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49:58
+79                android:name="android.support.FILE_PROVIDER_PATHS"
+79-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-67
+80                android:resource="@xml/provider_paths" />
+80-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-55
+81        </provider>
+82        <provider
+82-->[:react-native-file-viewer] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+83            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+83-->[:react-native-file-viewer] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-75
+84            android:authorities="com.audiorecoder.provider"
+84-->[:react-native-file-viewer] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-60
+85            android:exported="false"
+85-->[:react-native-file-viewer] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+86            android:grantUriPermissions="true" >
+86-->[:react-native-file-viewer] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+87            <meta-data
+87-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49:58
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-67
+89                android:resource="@xml/file_viewer_provider_paths" />
+89-->[:react-native-blob-util] C:\Users\noppa\Documents\React\CSM_expo\node_modules\react-native-blob-util\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-55
+90        </provider>
+91
+92        <activity
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+93            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+107                    android:scheme="genericidp" />
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+108            </intent-filter>
+109        </activity>
+110        <activity
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+111            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+112            android:excludeFromRecents="true"
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+113            android:exported="true"
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+114            android:launchMode="singleTask"
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+120                <category android:name="android.intent.category.BROWSABLE" />
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+121
+122                <data
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+123                    android:host="firebase.auth"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+124                    android:path="/"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+125                    android:scheme="recaptcha" />
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+126            </intent-filter>
+127        </activity>
+128
+129        <service
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+130            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+131            android:enabled="true"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+132            android:exported="false" >
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+133            <intent-filter>
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+134                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+137            </intent-filter>
+138        </service>
+139
+140        <meta-data
+140-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\64da7d81a5df9befcd0bde964b75c1bc\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:11:9-13:43
+141            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+141-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\64da7d81a5df9befcd0bde964b75c1bc\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:12:13-84
+142            android:value="GlideModule" />
+142-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\64da7d81a5df9befcd0bde964b75c1bc\jetified-okhttp3-integration-4.12.0\AndroidManifest.xml:13:13-40
+143
+144        <activity
+144-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+145            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+145-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+146            android:excludeFromRecents="true"
+146-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+147            android:exported="false"
+147-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+149        <!--
+150            Service handling Google Sign-In user revocation. For apps that do not integrate with
+151            Google Sign-In, this service will never be started.
+152        -->
+153        <service
+153-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+154            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+154-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+155            android:exported="true"
+155-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+156            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+156-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+157            android:visibleToInstantApps="true" />
+157-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+161            android:authorities="com.audiorecoder.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+163            android:exported="false"
+163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+164            android:initOrder="100" />
+164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+165
+166        <activity
+166-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\0a06b30f5a999f7a20e7f2a44087cb71\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\0a06b30f5a999f7a20e7f2a44087cb71\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\noppa\.gradle\caches\transforms-2\files-2.1\0a06b30f5a999f7a20e7f2a44087cb71\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+174    </application>
+175
+176</manifest>
